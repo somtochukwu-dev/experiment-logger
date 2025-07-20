@@ -16,8 +16,7 @@ Step frequency breakdown
 ✅ Save cleaned logs and reports in multiple folders (outputs/ and logs/)
 
 🗂 Project Structure
-bash
-Copy code
+ 
 experiment-logger/
 ├── data/
 │   └── raw_experiment_log.csv          # Raw experiment data
@@ -37,14 +36,10 @@ experiment-logger/
 ⚙️ Installation
 1️⃣ Clone this repository
 
-bash
-Copy code
 git clone https://github.com/yourusername/experiment-logger.git
 cd experiment-logger
 2️⃣ Install dependencies
 
-bash
-Copy code
 pip install -r requirements.txt
 3️⃣ Prepare your raw data
 
@@ -53,8 +48,6 @@ Place your experiment log as data/raw_experiment_log.csv.
 🧑‍🔬 Usage
 Run the main automation pipeline:
 
-bash
-Copy code
 python main.py
 ✅ Cleaned logs and reports will be saved in both outputs/ and logs/.
 
@@ -74,8 +67,10 @@ pyyaml
 
 Install all with:
 
-bash
-Copy code
 pip install -r requirements.txt
+
 👨‍💻 Author
 Somtochukwu O
+
+License
+This project is licensed for educational and portfolio purposes. Contact for commercial use.
